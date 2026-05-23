@@ -1,0 +1,12 @@
+title: CalorieAI
+description: AI-powered calorie tracking from photos. Privacy Policy and Terms of Service.
+theme: jekyll-theme-minimal
+permalink: pretty
+
+exclude:
+  - "_audits"
+  - "_reports"
+  - "*.draft"
+  - "*.tmp"
+  - "README.md"
+  - "module-structure.md"
