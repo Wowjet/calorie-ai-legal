@@ -6,11 +6,11 @@ title: Privacy Policy
 # Privacy Policy
 
 **Effective date:** May 21, 2026  
-**Last updated:** May 21, 2026
+**Last updated:** May 26, 2026
 
-This Privacy Policy describes how CalorieAI ("we", "our", "us") collects, uses, and shares information about you when you use the CalorieAI mobile application (the "Service").
+This Privacy Policy describes how Biteva ("we", "our", "us") collects, uses, and shares information about you when you use the Biteva mobile application (the "Service").
 
-By using CalorieAI, you agree to the collection and use of information in accordance with this policy.
+By using Biteva, you agree to the collection and use of information in accordance with this policy.
 
 ---
 
@@ -83,7 +83,7 @@ We share your information with the following third parties strictly as necessary
 
 We do NOT sell your personal information. We do NOT share your information with advertisers. We do NOT use your meal photos to train any third party AI model.
 
-We may disclose your information if required by law, court order, or to protect the rights, safety, or property of CalorieAI, our users, or others.
+We may disclose your information if required by law, court order, or to protect the rights, safety, or property of Biteva, our users, or others.
 
 ---
 
@@ -145,7 +145,7 @@ If you signed in with Apple, you can revoke Apple Sign-In access at any time via
 
 ## 8. Children
 
-CalorieAI is not intended for use by children under 13 years of age (or under 16 in the European Economic Area). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it.
+Biteva is not intended for use by children under 13 years of age (or under 16 in the European Economic Area). We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it.
 
 ---
 
@@ -170,4 +170,4 @@ For privacy-specific inquiries, you can also use the same address with the subje
 
 ---
 
-*This policy is provided in English and applies globally to all users of CalorieAI.*
+*This policy is provided in English and applies globally to all users of Biteva.*

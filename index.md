@@ -1,9 +1,9 @@
 ---
 layout: default
-title: CalorieAI
+title: Biteva
 ---
 
-# CalorieAI
+# Biteva
 
 AI-powered calorie tracking from photos.
 
@@ -18,4 +18,4 @@ For support inquiries, contact us at **supai_cal@outlook.com**.
 
 ---
 
-[CalorieAI on GitHub](https://github.com/Wowjet/calorie-ai)
+[Biteva on GitHub](https://github.com/Wowjet/calorie-ai)

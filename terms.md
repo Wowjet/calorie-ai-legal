@@ -6,9 +6,9 @@ title: Terms of Service
 # Terms of Service
 
 **Effective date:** May 21, 2026  
-**Last updated:** May 21, 2026
+**Last updated:** May 26, 2026
 
-These Terms of Service ("Terms") govern your use of the CalorieAI mobile application (the "Service") provided by CalorieAI ("we", "our", "us"). Please read them carefully.
+These Terms of Service ("Terms") govern your use of the Biteva mobile application (the "Service") provided by Biteva ("we", "our", "us"). Please read them carefully.
 
 By creating an account or using the Service, you agree to be bound by these Terms.
 
@@ -16,11 +16,11 @@ By creating an account or using the Service, you agree to be bound by these Term
 
 ## 1. The Service
 
-CalorieAI provides an AI-powered tool to help you estimate the calorie and nutritional content of meals from photos. The Service is designed for general wellness and educational purposes only.
+Biteva provides an AI-powered tool to help you estimate the calorie and nutritional content of meals from photos. The Service is designed for general wellness and educational purposes only.
 
-### What CalorieAI is NOT
+### What Biteva is NOT
 
-**CalorieAI is not a medical device, medical service, or medical advice tool.** Calorie and nutritional estimates produced by our AI are approximate and may be inaccurate. Do not rely on CalorieAI for:
+**Biteva is not a medical device, medical service, or medical advice tool.** Calorie and nutritional estimates produced by our AI are approximate and may be inaccurate. Do not rely on Biteva for:
 - Medical, dietary, or nutritional advice
 - Treatment of any health condition (including diabetes, eating disorders, food allergies, or any other condition)
 - Decisions that require professional medical or dietary guidance
@@ -41,7 +41,7 @@ You are responsible for reviewing AI estimates and adjusting them based on your 
 
 ## 2. Eligibility
 
-To use CalorieAI, you must:
+To use Biteva, you must:
 - Be at least 13 years old (or 16 if you are in the European Economic Area)
 - Have the legal capacity to enter into a binding agreement
 - Not be barred from using the Service under applicable law
@@ -64,7 +64,7 @@ You may not share your account with others. You may not create multiple accounts
 
 ## 4. Acceptable use
 
-When using CalorieAI, you agree NOT to:
+When using Biteva, you agree NOT to:
 - Use the Service for any unlawful purpose
 - Upload photos that contain illegal, harmful, harassing, or copyrighted content that you do not own
 - Upload photos that are not of your own meals (for example, photos of other people or identifying information of others)
@@ -82,7 +82,7 @@ We reserve the right to terminate accounts that violate these rules.
 ## 5. Your content
 
 ### Photos and meal data
-You retain ownership of all photos and meal data you upload ("Your Content"). By uploading content to CalorieAI, you grant us a limited, non-exclusive, royalty-free license to:
+You retain ownership of all photos and meal data you upload ("Your Content"). By uploading content to Biteva, you grant us a limited, non-exclusive, royalty-free license to:
 - Process your photos using our AI analysis pipeline
 - Store your content on our servers to provide the Service to you
 - Use anonymized, aggregated data to improve the Service (see Privacy Policy)
@@ -99,7 +99,7 @@ This license terminates when you delete the content or your account, except for 
 
 ## 6. Intellectual property
 
-The Service, including all software, designs, text, graphics, and trademarks (excluding Your Content), is owned by CalorieAI and is protected by intellectual property laws. You receive a limited, non-transferable license to use the Service for personal, non-commercial purposes only.
+The Service, including all software, designs, text, graphics, and trademarks (excluding Your Content), is owned by Biteva and is protected by intellectual property laws. You receive a limited, non-transferable license to use the Service for personal, non-commercial purposes only.
 
 You may not copy, modify, distribute, or create derivative works based on the Service.
 
@@ -153,7 +153,7 @@ TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING IM
 
 ## 11. Limitation of liability
 
-TO THE FULLEST EXTENT PERMITTED BY LAW, CALORIEAI AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AND AGENTS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, ARISING OUT OF YOUR USE OF THE SERVICE.
+TO THE FULLEST EXTENT PERMITTED BY LAW, BITEVA AND ITS AFFILIATES, OFFICERS, EMPLOYEES, AND AGENTS WILL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUES, ARISING OUT OF YOUR USE OF THE SERVICE.
 
 OUR TOTAL LIABILITY FOR ANY CLAIM ARISING OUT OF OR RELATING TO THE SERVICE WILL NOT EXCEED ONE HUNDRED US DOLLARS ($100) OR THE AMOUNT YOU PAID US IN THE PAST TWELVE MONTHS, WHICHEVER IS GREATER.
 
@@ -165,7 +165,7 @@ Some jurisdictions do not allow certain limitations of liability, so some of the
 
 ## 12. Indemnification
 
-You agree to indemnify and hold harmless CalorieAI from any claims, damages, losses, or expenses (including reasonable attorneys' fees) arising out of:
+You agree to indemnify and hold harmless Biteva from any claims, damages, losses, or expenses (including reasonable attorneys' fees) arising out of:
 - Your use of the Service
 - Your violation of these Terms
 - Your violation of any third party rights
@@ -211,4 +211,4 @@ For questions about these Terms, contact us at:
 
 ---
 
-*Thank you for using CalorieAI.*
+*Thank you for using Biteva.*
