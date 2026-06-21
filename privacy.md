@@ -5,8 +5,8 @@ title: Privacy Policy
 
 # Privacy Policy
 
-**Effective date:** May 21, 2026  
-**Last updated:** June 20, 2026
+**Effective date:** June 21, 2026  
+**Last updated:** June 21, 2026
 
 This Privacy Policy describes how Biteva ("we", "our", "us") collects, uses, and shares information about you when you use the Biteva mobile application (the "Service").
 
