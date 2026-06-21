@@ -50,7 +50,6 @@ See "How we share your information" below for the third parties involved in gene
 ### Device and usage data
 To improve the Service and diagnose issues, we collect:
 - Device type, operating system, and app version
-- Usage events (which screens you visit, which features you use), linked to your account through a hashed identifier
 - Crash reports and error logs (technical information about your device, without meal contents and no direct personal data such as your email or name; a hashed identifier is attached for debugging)
 
 ### We do NOT collect
@@ -87,7 +86,6 @@ We share your information with the following third parties strictly as necessary
 | **OpenAI** (openai.com) | AI analysis of meals (photo recognition and text nutrition lookup) | Meal photos and meal-related text (a food name, or a caption you add to a photo); no profile or account info attached |
 | **OpenRouter** (openrouter.ai) | AI coach (chat) — routing your request to a language-model inference provider | Coach message text and a numeric context summary (calories, meal names, recent weight, targets); no account info attached |
 | **DeepInfra, Fireworks AI, Together AI** (via OpenRouter) | Running the AI coach language model (inference) on US-based infrastructure | Same coach request data as the OpenRouter row above |
-| **PostHog** (posthog.com) | Usage analytics (linked to your account through a hashed identifier) | Event data, device type, app version |
 | **Sentry** (sentry.io) | Crash and error reporting | Crash logs, device type, app version; no meal or profile content and no direct personal data such as your email or name; a hashed identifier is attached for debugging |
 | **Apple** (apple.com) | Sign in with Apple authentication (optional) | Apple account identifier only |
 
@@ -140,7 +138,7 @@ When you delete your account, we delete all your personal information (account, 
 You can view and edit your profile information at any time in the app under **Settings → Profile**. To request a copy of all data we hold about you, contact us at the email below.
 
 ### Opt out of analytics
-We do not currently offer a granular opt-out for analytics. Our usage analytics are linked to your account through a hashed identifier and do not include your meal photos or meal contents. If you wish to opt out, please delete your account — this also deletes your analytics data.
+We do not collect usage analytics, so there is nothing to opt out of.
 
 ### California (CCPA) and other US state privacy rights
 If you are a California resident (or resident of a state with similar privacy laws), you have the right to:
@@ -162,7 +160,6 @@ If you signed in with Apple, you can revoke Apple Sign-In access at any time via
 - **Active accounts:** we retain your data as long as your account is active
 - **Meal photos:** retained while your account is active and deleted when you delete your account. We do not currently delete photos automatically after a fixed time period.
 - **AI coach conversations:** not stored on our servers (kept only on your device); we retain only usage metadata (token counts, cost, timestamps) tied to your account
-- **Usage analytics:** linked to your account through a hashed identifier and deleted when you delete your account
 - **Deleted accounts:** we delete your personal information within 30 days of account deletion request
 - **Crash and error logs:** retained for up to 90 days for diagnostic purposes
 
