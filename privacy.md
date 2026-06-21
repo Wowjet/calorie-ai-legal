@@ -6,7 +6,7 @@ title: Privacy Policy
 # Privacy Policy
 
 **Effective date:** May 21, 2026  
-**Last updated:** May 26, 2026
+**Last updated:** June 20, 2026
 
 This Privacy Policy describes how Biteva ("we", "our", "us") collects, uses, and shares information about you when you use the Biteva mobile application (the "Service").
 
@@ -39,11 +39,19 @@ When you log meals, we collect:
 - Manual adjustments you make to AI estimates
 - Meal timestamps and the date logged
 
+### AI coach conversations
+Biteva includes an optional in-app AI coach you can chat with. When you use it:
+- We process the text of the messages you send and a short numeric summary of your recent activity (calories eaten, your daily target, the names and calories of your recent meals, and your most recently logged weight) in order to generate a reply.
+- We do **not** store the content of your coach conversations on our servers. Your conversation history is kept only locally on your device.
+- We record usage metadata (token counts, cost, timestamps) tied to your account, used to enforce per-user limits and monitor costs.
+
+See "How we share your information" below for the third parties involved in generating coach replies.
+
 ### Device and usage data
 To improve the Service and diagnose issues, we collect:
 - Device type, operating system, and app version
-- Anonymized usage events (which screens you visit, which features you use)
-- Crash reports and error logs (technical information about your device, without meal contents or personal identifiers)
+- Usage events (which screens you visit, which features you use), linked to your account through a hashed identifier
+- Crash reports and error logs (technical information about your device, without meal contents and no direct personal data such as your email or name; a hashed identifier is attached for debugging)
 
 ### We do NOT collect
 - Your precise location (GPS)
@@ -76,12 +84,23 @@ We share your information with the following third parties strictly as necessary
 | Service | Purpose | Data shared |
 |---|---|---|
 | **Supabase** (supabase.com) | Hosting, database, authentication, file storage | Account, profile, meal data, photos |
-| **OpenAI** (openai.com) | AI photo analysis of meals | Meal photos only (no profile or account info attached) |
-| **PostHog** (posthog.com) | Anonymized usage analytics | Anonymized event data, device type, app version |
-| **Sentry** (sentry.io) | Crash and error reporting | Crash logs, device type, app version (no meal or profile content) |
+| **OpenAI** (openai.com) | AI analysis of meals (photo recognition and text nutrition lookup) | Meal photos and meal-related text (a food name, or a caption you add to a photo); no profile or account info attached |
+| **OpenRouter** (openrouter.ai) | AI coach (chat) — routing your request to a language-model inference provider | Coach message text and a numeric context summary (calories, meal names, recent weight, targets); no account info attached |
+| **DeepInfra, Fireworks AI, Together AI** (via OpenRouter) | Running the AI coach language model (inference) on US-based infrastructure | Same coach request data as the OpenRouter row above |
+| **PostHog** (posthog.com) | Usage analytics (linked to your account through a hashed identifier) | Event data, device type, app version |
+| **Sentry** (sentry.io) | Crash and error reporting | Crash logs, device type, app version; no meal or profile content and no direct personal data such as your email or name; a hashed identifier is attached for debugging |
 | **Apple** (apple.com) | Sign in with Apple authentication (optional) | Apple account identifier only |
 
-We do NOT sell your personal information. We do NOT share your information with advertisers. We do NOT use your meal photos to train any third party AI model.
+### How the AI coach uses these providers
+
+When you send a message to the AI coach, your request is routed through **OpenRouter** to one of a fixed allowlist of US-based inference providers — **DeepInfra, Fireworks AI, or Together AI** — which run the open-weights DeepSeek V4 language model. The request is **not** sent to DeepSeek's own servers.
+
+- We do **not** attach your email, name, or account identifier to coach requests. The request contains only the text of your recent coach messages and a numeric context summary (calories, meal names, recent weight, and targets).
+- We set these requests to route only to inference providers that we instruct, via OpenRouter, not to retain or train on the input ("data collection: deny").
+- Biteva does not log or store the content of your coach messages; we keep only usage metadata (token counts, cost, timestamps) tied to your account.
+- Because your messages are free text, anything you type into the coach is included in the request that is processed. Please do not enter sensitive personal information you would not want processed by these providers.
+
+We do NOT sell your personal information. We do NOT share your information with advertisers. We do NOT use your meal photos or coach messages to train any third party AI model.
 
 We may disclose your information if required by law, court order, or to protect the rights, safety, or property of Biteva, our users, or others.
 
@@ -89,7 +108,11 @@ We may disclose your information if required by law, court order, or to protect 
 
 ## 4. Where your data is stored
 
-Your data is stored on servers operated by Supabase (which uses Amazon Web Services infrastructure). Data is primarily stored in the United States. If you are located outside the United States, your data will be transferred to and processed in the United States, where data protection laws may differ from those in your country.
+Your data is stored on servers operated by Supabase (which uses Amazon Web Services infrastructure). Data is primarily stored in the United States.
+
+The third parties that perform AI processing for us are also located in the United States: **OpenAI** (meal photo and text analysis) and **OpenRouter** together with its allowlisted inference providers **DeepInfra, Fireworks AI, and Together AI** (AI coach). When you use these features, the relevant data described above is transferred to and processed in the United States.
+
+If you are located outside the United States, your data will be transferred to and processed in the United States, where data protection laws may differ from those in your country.
 
 ---
 
@@ -117,7 +140,7 @@ When you delete your account, we delete all your personal information (account, 
 You can view and edit your profile information at any time in the app under **Settings → Profile**. To request a copy of all data we hold about you, contact us at the email below.
 
 ### Opt out of analytics
-We do not currently offer a granular opt-out for analytics. All analytics data is anonymized and does not include meal photos, meal contents, or personal identifiers. If you wish to fully opt out, please delete your account.
+We do not currently offer a granular opt-out for analytics. Our usage analytics are linked to your account through a hashed identifier and do not include your meal photos or meal contents. If you wish to opt out, please delete your account — this also deletes your analytics data.
 
 ### California (CCPA) and other US state privacy rights
 If you are a California resident (or resident of a state with similar privacy laws), you have the right to:
@@ -137,9 +160,11 @@ If you signed in with Apple, you can revoke Apple Sign-In access at any time via
 ## 7. Data retention
 
 - **Active accounts:** we retain your data as long as your account is active
+- **Meal photos:** retained while your account is active and deleted when you delete your account. We do not currently delete photos automatically after a fixed time period.
+- **AI coach conversations:** not stored on our servers (kept only on your device); we retain only usage metadata (token counts, cost, timestamps) tied to your account
+- **Usage analytics:** linked to your account through a hashed identifier and deleted when you delete your account
 - **Deleted accounts:** we delete your personal information within 30 days of account deletion request
 - **Crash and error logs:** retained for up to 90 days for diagnostic purposes
-- **Anonymized analytics:** retained indefinitely (no longer linked to you)
 
 ---
 
